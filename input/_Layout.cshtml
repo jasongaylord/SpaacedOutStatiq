@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+@{
+  var isPost = Document.GetBool("IsPost") && !Document.GetBool("IsPostArchive");
+  var isPage = Document.GetBool("IsPage");
+}
+
+    @Html.Partial("_head")
+

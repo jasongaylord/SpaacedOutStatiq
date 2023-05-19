@@ -1,0 +1,7 @@
+social:
+  - twitter: jgaylord
+
+
+
+## Calculated settings
+isTwitter: => return !string.IsNullOrWhiteSpace(Context.GetString("social.twitter"));
